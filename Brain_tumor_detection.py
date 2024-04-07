@@ -1,5 +1,5 @@
 from roboflow import Roboflow
-rf = Roboflow(api_key="m38E5eAth8zRPnpu69az")
+rf = Roboflow(api_key="input your roboflow api key")
 project = rf.workspace().project("brain-tumor-detection-u7ysj")
 model = project.version(1).model
 
